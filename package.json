@@ -1,8 +1,8 @@
 {
-    "title": "Clean Blog Jekyll",
-    "name": "startbootstrap-clean-blog-jekyll",
-    "version": "4.0.9",
-    "description": "Clean Blog is a Medium inspired blog theme for Bootstrap.",
+    "title": "Simple Blog Site",
+    "name": "Simple Blog Site",
+    "version": "0.0.1",
+    "description": "Simple Blog Site.",
     "keywords": [
         "css",
         "sass",
@@ -11,19 +11,19 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/clean-blog",
+    "homepage": "https://cameronkennedy.info",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "https://github.com/kennedycmr/kennedycmr.github.io",
+        "email": "mail@cameronkennedy.info"
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "Cameron Kennedy",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+        ""
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll.git"
+        "url": "https://github.com/kennedycmr/kennedycmr.github.io.git"
     },
     "dependencies": {
         "bootstrap": "4.3.1",

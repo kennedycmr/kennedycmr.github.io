@@ -1,14 +1,11 @@
-title:              Clean Blog
-email:              your-email@example.com
-description:        A Blog Theme by Start Bootstrap
-author:             Start Bootstrap
+title:              Thoughts 
+email:              mail@cameronkennedy.org
+description:        A Simple Blog Site
+author:             Cameron Kennedy
 baseurl:            "/"
 url:                "https://cameronkennedy.info"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    BlackrockDigital
-facebook_username:  StartBootstrap
 linkedin_username:
 
 # Add your google-analytics ID here to activate google analytics
