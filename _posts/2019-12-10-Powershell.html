@@ -21,4 +21,10 @@ background: '/img/posts/powershellHeader.jpg'
 
 I brought those tools available on Windows, and then they didn't help manage Windows because in Windows, everything's an API that returns structured data. So, that didn't help. [...] I came up with this idea of PowerShell, and I said, "Hey, we can do this better."</blockquote>
 
+<p>Below is some example code:</p>
+{% highlight powershell %}
+import-modue Some-Blah-Module
+Get-ADUser Username
+{% endhighlight %}
+<p>The above code simply imports a module and then does a search for an Active Directory user assuming the AD PowerShell modules are available. </p>
 
