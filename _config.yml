@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Dog Hair and Toe Nails
-email: admin@doghairandtoenails.com
+title: cameronkennedy.info
+email: admin@cameronkennedy.info
 description: >- # this means to ignore newlines until "baseurl:"
   Website for my ramblings and notepad on things I wish to remember and
   possibly use to refer people to. Don't expect anything professional 
@@ -41,7 +41,7 @@ minima:
 #  - portfolio.md
 
 plugins:
-  - jekyll-feed
+#  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
