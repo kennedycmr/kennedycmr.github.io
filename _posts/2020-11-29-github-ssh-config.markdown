@@ -42,9 +42,9 @@ host github.com-myrepo
 {% highlight bash %}
 host github.com-myrepo
 [remote "origin"]
-	#url = https://github.com/somename/repo.github.io.git
+  #url = https://github.com/somename/repo.github.io.git
   url = git@github.com-myrepo:somename/repo.github.io.git
-	fetch = +refs/heads/*:refs/remotes/origin/*
+  fetch = +refs/heads/*:refs/remotes/origin/*
 {% endhighlight %}
 - Notice in the above, the URL line now contains the same name given to the *host* line in the ssh config earlier "github.com-myrepo". By using this method, we can have multiple git config blocks that all point to github.com, yet, refer to different repositories and be able to have different ssh keys. 
 
