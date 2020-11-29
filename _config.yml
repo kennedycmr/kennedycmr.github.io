@@ -21,9 +21,7 @@
 title: cameronkennedy.info
 email: admin@cameronkennedy.info
 description: >- # this means to ignore newlines until "baseurl:"
-  Website for my ramblings and notepad on things I wish to remember and
-  possibly use to refer people to. Don't expect anything professional 
-  or worthy of checking back often for. 
+  Ramblings and Notepad. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
