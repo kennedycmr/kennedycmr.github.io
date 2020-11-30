@@ -2,7 +2,8 @@
 layout: post
 title:  "The Post to Start them All."
 date:   2020-11-25 21:02:00 -0500
-categories: jekyll update
+categories: jekyll
+tags: markdown jekyll
 ---
 This is the first post I am making here to keep track of basic formatting examples as a cheatsheet for future posts.
 

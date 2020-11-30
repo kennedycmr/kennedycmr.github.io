@@ -3,6 +3,8 @@ layout: post
 title: "Functions in PowerShell"
 date: 2019-12-17 15:20:00 -0500
 background: '/img/posts/powershellHeader.jpg'
+categories: powershell
+tags: powershell functions
 ---
 
 <p>Functions in PowerShell, and most languages, are a way to create smaller, condensed units of reusable code inside a larger piece of code. 

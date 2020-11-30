@@ -2,7 +2,8 @@
 layout: post
 title:  "Push Code Updates to GitHub Using SSH Keys Only"
 date:   2020-11-29 17:17:00 -0500
-categories: jekyll update
+categories: iac
+tags: git github ssh-key
 ---
 When working with Git repositories that are hosted on github.com, once you start making code changes and wanting to write those back, having to constantly type your username + password gets old. This is how to setup your workstation that us running Linux, to use SSH keys (without a passphrase). 
 
