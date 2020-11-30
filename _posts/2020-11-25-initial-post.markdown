@@ -31,3 +31,10 @@ Will try and seperate from the next paragraph using multiple spaces.
 
 This is another paragraph. This shows how to do the paragraph spacing by 
 adding multiple (2) spaces after the end of the first paragraph. 
+
+## Example Inserting a Picture
+This is how we insert a picture: 
+![Sexy Plane](/assets/images/cessna_citation_x.jpg){: .center-image }
+
+This is what it looks like after we have pasted it inline. 
+
