@@ -12,10 +12,11 @@ Below are the commands I use to start those containers. I will add to them over 
 # Regular Daily Use 
 The below command explained: 
 run = run this image. 
---volume="$PWD":"/workdir" : this means to mount the current directory I am in, as the "/workdir" directory in the container. In this way, we have a way to move files in/out of the container. 
--ti  = run interactive. In otherwords, run the container, and allow you to type commands and do stuff in it. 
-google/cloud-sdk"latest   = run the container from google that has the latest cloud-sdk installed. This way all I need is a service account keys file and I can authenticate to Google Cloud Platform and do things. 
-bash   = this is the command to run when the container is launched. In this case I want the bash shell to launch. 
+- --volume="$PWD":"/workdir" : this means to mount the current directory I am in, as the "/workdir" directory in the container. In this way, we have a way to move files in/out of the container.   
+- -ti  = run interactive. In otherwords, run the container, and allow you to type commands and do stuff in it.   
+- google/cloud-sdk"latest   = run the container from google that has the latest cloud-sdk installed. This way all I need is a service account keys file and I can authenticate to Google Cloud Platform and do things.   
+- bash   = this is the command to run when the container is launched. In this case I want the bash shell to launch.  
+
 
 {% highlight bash %}
 podman run --volume="$PWD":"/workdir"  -ti google/cloud-sdk:latest bash
