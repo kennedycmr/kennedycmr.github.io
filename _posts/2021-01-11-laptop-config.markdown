@@ -14,3 +14,9 @@ As I move into a new year, there are some changes I am planning to make with my 
 * Web Browser:      Mozilla Firefox
 * Password Store:   Keepass
 * Web Hosting:      Github (Jekyll static page builder). Custom domain via GoDaddy as above.
+* Contacts:         Mozilla Thunderbird (planning to use ProtonMail as online store will be helpful)
+* Photo Store:      Google Photos
+* Cell Number:      Google Voice 
+* Video Editing:    Lightworks (https://www.lwks.com)
+* Code Editing:     VSCode (https://code.visualstudio.com)
+* Media Player:     VLC
