@@ -26,7 +26,7 @@ HKLM\SOFTWARE\Policies\Microsoft\WindowsStore\RequirePrivateStoreOnly = 0
 $folder = 'C:\Temp'
 {% endhighlight %}
 
-* Create a file in that folder called "setup.sh". The contents of the file should be: 
+* Create a file in that folder called "setup.sh". The contents of the file should be as follows. Note: becareful copying over text. Ensure it doesnt bring across windows control characters. If needed, use package dos2unix to ensure file is in the correct format. 
 {% highlight bash %}
 #!/bin/bash 
 
