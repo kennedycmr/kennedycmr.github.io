@@ -22,7 +22,7 @@ HKLM\SOFTWARE\Policies\Microsoft\WindowsStore\RequirePrivateStoreOnly = 0
 * Create a folder that will be mounted on the Docker image. This will be used as a way to get files in/out of the container so that we don't lose important information when the container stops. (e.g. C:\Temp)
 
 * Create a variable pointing to that folder
-{% highlight powershell %} 
+{% highlight powershell %}
 $folder = 'C:\Temp'
 {% endhighlight %}
 
@@ -30,8 +30,11 @@ $folder = 'C:\Temp'
 {% highlight bash %}
 #!/bin/bash 
 
-apt-get install -y unzip gettext-base python3 python3-dev python3-venv wget
+apt-get install -y unzip gettext-base python3 python3-dev python3-venv wget vim
+alias ll='ls -al'
+
 export TERRAFORM_VERSION=0.13.5
+
 cd ~
 rm -rf terrafor*
 wget -q https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraform_${TERRAFORM_VERSION}_linux_amd64.zip
