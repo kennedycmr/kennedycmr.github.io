@@ -18,7 +18,7 @@ export TF_VAR_GCP_ORG_ID="xxxxxxxxxxxx"
 export TF_VAR_BILLING_ACCOUNT_ID="xxxxx-xxxxx-xxxxx"
 {% endhighlight %}
 
-* The run Terraform using the below code example. This could be all in a single 'main.tf' file or seperated out in dedicated variables, and other files named according to what they are doing. 
+* Then run Terraform using the below code example. This could be all in a single 'main.tf' file or seperated out in dedicated variables, and other files named according to what they are doing. 
 {% highlight python %}
 variable "GCP_ORG_ID" {
   description = "organization id. Obtain from IAM -> Manage Resources"
@@ -29,7 +29,6 @@ variable "BILLING_ACCOUNT_ID" {
   description = "Billing account ID to be used by default"
   type        = string
 }
-
 
 resource "google_folder" "commonservices" {
   display_name = "Common Services"
