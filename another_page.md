@@ -1,3 +1,8 @@
+layout: page
+title: "Another Page"
+permalink: /another-page/
+
+
 # Another Page
 
 This is another page to see what it looks like when I add some more information. 
